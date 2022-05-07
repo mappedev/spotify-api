@@ -14,9 +14,10 @@
     "Express",
     "MongoDB",
     "MySQL",
-    "mongoose",
-    "sequelize",
-    "slack webhook"
+    "Mongoose",
+    "Sequelize",
+    "Slack webhook",
+    "API REST"
   ],
   "author": "@mappedev",
   "license": "MIT",
