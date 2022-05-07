@@ -1,8 +1,8 @@
 {
-  "name": "node",
+  "name": "spotify-api",
   "version": "1.0.0",
-  "description": "Practice NodeJS",
-  "main": "index.js",
+  "description": "Practice NodeJS and Express",
+  "main": "./src/app.js",
   "scripts": {
     "start": "node ./src/app.js",
     "dev": "nodemon ./src/app.js",
@@ -12,24 +12,28 @@
   "keywords": [
     "NodeJS",
     "Express",
-    "MongoDB"
+    "MongoDB",
+    "MySQL",
+    "mongoose",
+    "sequelize",
+    "slack webhook"
   ],
   "author": "@mappedev",
   "license": "MIT",
   "dependencies": {
-    "@slack/webhook": "^6.1.0",
-    "bcryptjs": "^2.4.3",
+    "@slack/webhook": "6.1.0",
+    "bcryptjs": "2.4.3",
     "cors": "2.8.5",
     "dotenv": "16.0.0",
     "express": "4.17.3",
     "express-validator": "6.14.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "8.5.1",
     "mongoose": "6.2.8",
     "mongoose-delete": "0.5.4",
-    "morgan-body": "^2.6.6",
+    "morgan-body": "2.6.6",
     "multer": "1.4.4",
-    "mysql2": "^2.3.3",
-    "sequelize": "^6.19.0"
+    "mysql2": "2.3.3",
+    "sequelize": "6.19.0"
   },
   "devDependencies": {
     "nodemon": "2.0.15",
